@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuParseService", "SudokuParseService\SudokuParseService.csproj", "{0D7ECDF4-5811-4F59-BFCF-318E3C83E601}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuSolverService", "SudokuSolverService\SudokuSolverService.csproj", "{C6DA17E0-4324-41D9-80F1-0711A2EEBB4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBService", "DBService\DBService.csproj", "{40B4C07B-726E-42D3-8295-E14FBD7AA969}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SudokuDBModel", "SudokuDBModel\SudokuDBModel.csproj", "{F605E3AE-9A6F-4419-88BC-6597B1F16735}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D7ECDF4-5811-4F59-BFCF-318E3C83E601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7ECDF4-5811-4F59-BFCF-318E3C83E601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7ECDF4-5811-4F59-BFCF-318E3C83E601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7ECDF4-5811-4F59-BFCF-318E3C83E601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6DA17E0-4324-41D9-80F1-0711A2EEBB4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6DA17E0-4324-41D9-80F1-0711A2EEBB4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6DA17E0-4324-41D9-80F1-0711A2EEBB4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6DA17E0-4324-41D9-80F1-0711A2EEBB4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40B4C07B-726E-42D3-8295-E14FBD7AA969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B4C07B-726E-42D3-8295-E14FBD7AA969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B4C07B-726E-42D3-8295-E14FBD7AA969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B4C07B-726E-42D3-8295-E14FBD7AA969}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F605E3AE-9A6F-4419-88BC-6597B1F16735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F605E3AE-9A6F-4419-88BC-6597B1F16735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F605E3AE-9A6F-4419-88BC-6597B1F16735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F605E3AE-9A6F-4419-88BC-6597B1F16735}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8C88373-96A5-45D7-93CA-DED6F8516E8F}
+	EndGlobalSection
+EndGlobal
